@@ -54,7 +54,7 @@ A função *glimpse()* do **dplyr** oferece uma visão panorâmica da estrutura 
 ```R
 glimpse(pbev)
 ```
-
+```R
 Rows: 920
 Columns: 30
 $ categoria                <chr> "Sub Compacto", "Sub Compacto", "Sub Compacto…
@@ -87,7 +87,7 @@ $ autonomia_km             <chr> "280", "280", "224", "227", "NA", "NA", "181"�
 $ class_rel_cat            <chr> "A", "A", "A", "C", "E", "E", "E", "E", "B", …
 $ class_abs_geral          <chr> "A", "A", "A", "A", "B", "B", "A", "A", "A", …
 $ selo_conpet              <chr> "NÃO", "NÃO", "NÃO", "NÃO", "NÃO", "NÃO", "NÃ…
-
+```
 
 ## Funções personalizadas para análise
 
