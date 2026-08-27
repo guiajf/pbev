@@ -6,7 +6,7 @@ Este repositório contém análises do Programa Brasileiro de Etiquetagem Veicul
 
 - 📄 [**Dicionário de dados**](dicionario_dados_pbev_2026.html) - Descrição completa das variáveis
 - 📊 [Análises exploratórias](https://github.com/guiajf/pbev)
-- 🗃️ [Dados brutos](dados/) 
+
 
 ## Como usar
 
