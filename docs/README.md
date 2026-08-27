@@ -1,10 +1,15 @@
-# Programa brasileiro de etiquetagem (PBE)
+# Projeto PBEV 2026
 
-Este diretório contém o dicionário de dados da tabela de veículos do Programa Brasileiro de Etiquetagem - **PBE**.
+Este repositório contém análises do Programa Brasileiro de Etiquetagem Veicular.
 
-## Arquivos
-- `index.html` - Página principal com o dicionário
-- `dicionario_dados_pbev_2026.html` - dicionário criado com R.
+## Documentação
 
-## Acesse o dicionário
-[https://guiajf.github.io/pbev/dicionario_dados_pbev_2026.html/](https://guiajf.github.io/pbev/dicionario_dados_pbev_2026.html/)
+- 📄 [**Dicionário de dados**](dicionario_dados_pbev_2026.html) - Descrição completa das variáveis
+- 📊 [Análises Exploratórias](https://github.com/guiajf/pbev)
+- 🗃️ [Dados Brutos](dados/) 
+
+## Como usar
+
+1. Acesse o dicionário para entender as variáveis
+2. Explore os dados e análises
+3. Contribua com sugestões
