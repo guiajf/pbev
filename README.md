@@ -484,10 +484,12 @@ Em relação ao mercado, a categoria **Compacta** lidera em quantidade de modelo
 
 Acesse o dicionário dos dados em: [https://guiajf.github.io/pbev/dicionario_dados_pbev_2026.html/](https://guiajf.github.io/pbev/dicionario_dados_pbev_2026.html).
 
-Wickham H, François R, Henry L, Müller K, Vaughan D (2026). *dplyr: A Grammar of Data Manipulation*. R package version 1.2.1, https://dplyr.tidyverse.org.
-
 
 
 **Referências**
 
-Katti, Vishal. (2021). *Programming with R {Dplyr} - As I Understand It!!* July 17, 2021. https://vishalkatti.com/posts/programming-with-dplyr/.
+Hill, J. (2018). *Writing Custom Tidyverse Functions*. June 4, 2018. https://jonthegeek.com/2018/06/04/writing-custom-tidyverse-functions/.
+
+Katti, V. (2021). *Programming with R {Dplyr} - As I Understand It!!* July 17, 2021. https://vishalkatti.com/posts/programming-with-dplyr/.
+
+Wickham, H., François, R., Henry, L., Müller, K., & Vaughan, D. (2026). *dplyr: A Grammar of Data Manipulation*. R package version 1.2.1. https://dplyr.tidyverse.org.
