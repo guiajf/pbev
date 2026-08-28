@@ -484,6 +484,8 @@ Em relação ao mercado, a categoria **Compacta** lidera em quantidade de modelo
 
 Acesse o dicionário dos dados em: [https://guiajf.github.io/pbev/dicionario_dados_pbev_2026.html/](https://guiajf.github.io/pbev/dicionario_dados_pbev_2026.html).
 
+Wickham H, François R, Henry L, Müller K, Vaughan D (2026). *dplyr: A Grammar of Data Manipulation*. R package version 1.2.1, https://dplyr.tidyverse.org.
+
 
 
 **Referências**
