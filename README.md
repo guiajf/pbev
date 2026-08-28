@@ -492,4 +492,6 @@ Hill, J. (2018). *Writing Custom Tidyverse Functions*. June 4, 2018. https://jon
 
 Katti, V. (2021). *Programming with R {Dplyr} - As I Understand It!!* July 17, 2021. https://vishalkatti.com/posts/programming-with-dplyr/.
 
+Wickham, H., Çetinkaya-Rundel, M., & Grolemund, G. (2023). R for Data Science (2e). https://r4ds.hadley.nz.
+
 Wickham, H., François, R., Henry, L., Müller, K., & Vaughan, D. (2026). *dplyr: A Grammar of Data Manipulation*. R package version 1.2.1. https://dplyr.tidyverse.org.
