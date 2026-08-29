@@ -590,6 +590,8 @@ Apenas 13% dos veículos recebem o **Selo Conpet**, indicando que há espaço pa
 
 Em relação ao mercado, a categoria **Compacta** lidera em quantidade de modelos, enquanto os **Sub Compactos** mostram o melhor consumo médio, especialmente na versão elétrica.
 
+Acesse o dicionário de dados em: https://guiajf.github.io/pbev/dicionario_dados_pbev_2026.html.
+
 
 
 **Referências**
