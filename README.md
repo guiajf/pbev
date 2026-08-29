@@ -55,40 +55,39 @@ A função *glimpse()* do **dplyr** oferece uma visão panorâmica da estrutura 
 glimpse(pbev)
 ```
 
-```R
-Rows: 920
-Columns: 30
-$ categoria                <chr> "Sub Compacto", "Sub Compacto", "Sub Compacto…
-$ marca                    <chr> "BYD", "BYD", "BYD", "FIAT", "FIAT", "FIAT", …
-$ modelo                   <chr> "DOLPHIN MINI", "DOLPHIN MINI", "DOLPHIN MINI…
-$ versao                   <chr> "GS EV", "GS 5 EV", "GL 5 EV", "ICON", "TREKK…
-$ motor                    <chr> "Elétrico", "Elétrico", "Elétrico", "ELÉTRICO…
-$ propulsao                <chr> "Elétrico", "Elétrico", "Elétrico", "Elétrico…
-$ transmissao              <chr> "NA", "NA", "A-1", "A-1", "M-5", "M-5", "A-1"…
-$ ar_cond                  <chr> "S", "S", "S", "S", "S", "S", "S", "S", "S", …
-$ direcao                  <chr> "E", "E", "E", "E", "E", "E", "E", "E", "E", …
-$ combustivel              <chr> "E", "E", "E", "E", "F", "F", "E", "E", "E", …
-$ nmog_nox_mg_km           <chr> "NA", "NA", "NA", "NA", "38", "37", "NA", "NA…
-$ co_mg_km                 <chr> "NA", "NA", "NA", "NA", "280", "348", "NA", "…
-$ nox_g_km                 <chr> "NA", "NA", "NA", "NA", "3", "4", "NA", "NA",…
-$ red_limite               <chr> "A", "A", "A", "A", "B", "B", "A", "A", "A", …
-$ co2_fossil_g_km          <chr> "NA", "NA", "NA", "NA", "0", "0", "NA", "NA",…
-$ co2e_fossil_g_km         <chr> "0", "0", "NA", "NA", "91", "87", "NA", "NA",…
-$ co2e_vehp_g_km           <chr> "NA", "NA", "NA", "NA", "NA", "NA", "NA", "NA…
-$ etanol_cid_kml           <chr> "NA", "NA", "NA", "NA", "9.8", "10.1", "NA", …
-$ etanol_est_kml           <chr> "NA", "NA", "NA", "NA", "10.6", "11.1", "NA",…
-$ gas_diesel_cid_kml       <chr> "NA", "NA", "NA", "NA", "14.0", "14.5", "NA",…
-$ gas_diesel_est_kml       <chr> "NA", "NA", "NA", "NA", "15.1", "15.8", "NA",…
-$ eletr_ve_gas_cid_kmle    <chr> "58.6", "58.6", "60.6", "47.3", "NA", "NA", "…
-$ eletr_ve_gas_est_kmle    <chr> "41.9", "41.9", "44.4", "40.4", "NA", "NA", "…
-$ eletr_vehp_flex_cid_kmle <chr> "NA", "NA", "NA", "NA", "NA", "NA", "NA", "NA…
-$ eletr_vehp_flex_est_kmle <chr> "NA", "NA", "NA", "NA", "NA", "NA", "NA", "NA…
-$ consumo_mj_km            <chr> "0.41", "0.41", "0.39", "0.46", "1.46", "1.40…
-$ autonomia_km             <chr> "280", "280", "224", "227", "NA", "NA", "181"…
-$ class_rel_cat            <chr> "A", "A", "A", "C", "E", "E", "E", "E", "B", …
-$ class_abs_geral          <chr> "A", "A", "A", "A", "B", "B", "A", "A", "A", …
-$ selo_conpet              <chr> "NÃO", "NÃO", "NÃO", "NÃO", "NÃO", "NÃO", "NÃ…
-```
+    Rows: 920
+    Columns: 30
+    $ categoria                [3m[90m<chr>[39m[23m "Sub Compacto"[90m, [39m"Sub Compacto"[90m, [39m"Sub Compacto…
+    $ marca                    [3m[90m<chr>[39m[23m "BYD"[90m, [39m"BYD"[90m, [39m"BYD"[90m, [39m"FIAT"[90m, [39m"FIAT"[90m, [39m"FIAT"[90m, [39m…
+    $ modelo                   [3m[90m<chr>[39m[23m "DOLPHIN MINI"[90m, [39m"DOLPHIN MINI"[90m, [39m"DOLPHIN MINI…
+    $ versao                   [3m[90m<chr>[39m[23m "GS EV"[90m, [39m"GS 5 EV"[90m, [39m"GL 5 EV"[90m, [39m"ICON"[90m, [39m"TREKK…
+    $ motor                    [3m[90m<chr>[39m[23m "Elétrico"[90m, [39m"Elétrico"[90m, [39m"Elétrico"[90m, [39m"ELÉTRICO…
+    $ propulsao                [3m[90m<chr>[39m[23m "Elétrico"[90m, [39m"Elétrico"[90m, [39m"Elétrico"[90m, [39m"Elétrico…
+    $ transmissao              [3m[90m<chr>[39m[23m "NA"[90m, [39m"NA"[90m, [39m"A-1"[90m, [39m"A-1"[90m, [39m"M-5"[90m, [39m"M-5"[90m, [39m"A-1"…
+    $ ar_cond                  [3m[90m<chr>[39m[23m "S"[90m, [39m"S"[90m, [39m"S"[90m, [39m"S"[90m, [39m"S"[90m, [39m"S"[90m, [39m"S"[90m, [39m"S"[90m, [39m"S"[90m, [39m…
+    $ direcao                  [3m[90m<chr>[39m[23m "E"[90m, [39m"E"[90m, [39m"E"[90m, [39m"E"[90m, [39m"E"[90m, [39m"E"[90m, [39m"E"[90m, [39m"E"[90m, [39m"E"[90m, [39m…
+    $ combustivel              [3m[90m<chr>[39m[23m "E"[90m, [39m"E"[90m, [39m"E"[90m, [39m"E"[90m, [39m"F"[90m, [39m"F"[90m, [39m"E"[90m, [39m"E"[90m, [39m"E"[90m, [39m…
+    $ nmog_nox_mg_km           [3m[90m<chr>[39m[23m "NA"[90m, [39m"NA"[90m, [39m"NA"[90m, [39m"NA"[90m, [39m"38"[90m, [39m"37"[90m, [39m"NA"[90m, [39m"NA…
+    $ co_mg_km                 [3m[90m<chr>[39m[23m "NA"[90m, [39m"NA"[90m, [39m"NA"[90m, [39m"NA"[90m, [39m"280"[90m, [39m"348"[90m, [39m"NA"[90m, [39m"…
+    $ nox_g_km                 [3m[90m<chr>[39m[23m "NA"[90m, [39m"NA"[90m, [39m"NA"[90m, [39m"NA"[90m, [39m"3"[90m, [39m"4"[90m, [39m"NA"[90m, [39m"NA"[90m,[39m…
+    $ red_limite               [3m[90m<chr>[39m[23m "A"[90m, [39m"A"[90m, [39m"A"[90m, [39m"A"[90m, [39m"B"[90m, [39m"B"[90m, [39m"A"[90m, [39m"A"[90m, [39m"A"[90m, [39m…
+    $ co2_fossil_g_km          [3m[90m<chr>[39m[23m "NA"[90m, [39m"NA"[90m, [39m"NA"[90m, [39m"NA"[90m, [39m"0"[90m, [39m"0"[90m, [39m"NA"[90m, [39m"NA"[90m,[39m…
+    $ co2e_fossil_g_km         [3m[90m<chr>[39m[23m "0"[90m, [39m"0"[90m, [39m"NA"[90m, [39m"NA"[90m, [39m"91"[90m, [39m"87"[90m, [39m"NA"[90m, [39m"NA"[90m,[39m…
+    $ co2e_vehp_g_km           [3m[90m<chr>[39m[23m "NA"[90m, [39m"NA"[90m, [39m"NA"[90m, [39m"NA"[90m, [39m"NA"[90m, [39m"NA"[90m, [39m"NA"[90m, [39m"NA…
+    $ etanol_cid_kml           [3m[90m<chr>[39m[23m "NA"[90m, [39m"NA"[90m, [39m"NA"[90m, [39m"NA"[90m, [39m"9.8"[90m, [39m"10.1"[90m, [39m"NA"[90m, [39m…
+    $ etanol_est_kml           [3m[90m<chr>[39m[23m "NA"[90m, [39m"NA"[90m, [39m"NA"[90m, [39m"NA"[90m, [39m"10.6"[90m, [39m"11.1"[90m, [39m"NA"[90m,[39m…
+    $ gas_diesel_cid_kml       [3m[90m<chr>[39m[23m "NA"[90m, [39m"NA"[90m, [39m"NA"[90m, [39m"NA"[90m, [39m"14.0"[90m, [39m"14.5"[90m, [39m"NA"[90m,[39m…
+    $ gas_diesel_est_kml       [3m[90m<chr>[39m[23m "NA"[90m, [39m"NA"[90m, [39m"NA"[90m, [39m"NA"[90m, [39m"15.1"[90m, [39m"15.8"[90m, [39m"NA"[90m,[39m…
+    $ eletr_ve_gas_cid_kmle    [3m[90m<chr>[39m[23m "58.6"[90m, [39m"58.6"[90m, [39m"60.6"[90m, [39m"47.3"[90m, [39m"NA"[90m, [39m"NA"[90m, [39m"…
+    $ eletr_ve_gas_est_kmle    [3m[90m<chr>[39m[23m "41.9"[90m, [39m"41.9"[90m, [39m"44.4"[90m, [39m"40.4"[90m, [39m"NA"[90m, [39m"NA"[90m, [39m"…
+    $ eletr_vehp_flex_cid_kmle [3m[90m<chr>[39m[23m "NA"[90m, [39m"NA"[90m, [39m"NA"[90m, [39m"NA"[90m, [39m"NA"[90m, [39m"NA"[90m, [39m"NA"[90m, [39m"NA…
+    $ eletr_vehp_flex_est_kmle [3m[90m<chr>[39m[23m "NA"[90m, [39m"NA"[90m, [39m"NA"[90m, [39m"NA"[90m, [39m"NA"[90m, [39m"NA"[90m, [39m"NA"[90m, [39m"NA…
+    $ consumo_mj_km            [3m[90m<chr>[39m[23m "0.41"[90m, [39m"0.41"[90m, [39m"0.39"[90m, [39m"0.46"[90m, [39m"1.46"[90m, [39m"1.40…
+    $ autonomia_km             [3m[90m<chr>[39m[23m "280"[90m, [39m"280"[90m, [39m"224"[90m, [39m"227"[90m, [39m"NA"[90m, [39m"NA"[90m, [39m"181"…
+    $ class_rel_cat            [3m[90m<chr>[39m[23m "A"[90m, [39m"A"[90m, [39m"A"[90m, [39m"C"[90m, [39m"E"[90m, [39m"E"[90m, [39m"E"[90m, [39m"E"[90m, [39m"B"[90m, [39m…
+    $ class_abs_geral          [3m[90m<chr>[39m[23m "A"[90m, [39m"A"[90m, [39m"A"[90m, [39m"A"[90m, [39m"B"[90m, [39m"B"[90m, [39m"A"[90m, [39m"A"[90m, [39m"A"[90m, [39m…
+    $ selo_conpet              [3m[90m<chr>[39m[23m "NÃO"[90m, [39m"NÃO"[90m, [39m"NÃO"[90m, [39m"NÃO"[90m, [39m"NÃO"[90m, [39m"NÃO"[90m, [39m"NÃ…
+
 
 ## Funções personalizadas para análise
 
@@ -99,15 +98,14 @@ Esta função simplifica a seleção de colunas específicas, retornando apenas 
 
 ```R
 selecionar_colunas <- function(df, ...) {
-  dplyr::select(.data = df, ...) %>% 
-    head()
+  dplyr::select(.data = df, ...)  
 }
 ```
 
 
 ```R
 # Seleção com múltiplos critérios
-selecionar_colunas(pbev, marca, modelo, propulsao, combustivel)
+head(selecionar_colunas(pbev, marca, modelo, propulsao, combustivel))
 ```
 
 
@@ -138,10 +136,36 @@ A função de filtro permite segmentar os dados conforme critérios específicos
 filtrar_colunas <- function(df, ...) { 
   
   # pass the dots argument
-  dplyr::filter(.data = df, ...) %>% 
-    head()
-  }
+  dplyr::filter(.data = df, ...)
+}
 ```
+
+
+```R
+# Filtro com critério simples
+filtrar_colunas(pbev, combustivel == 'E100') 
+```
+
+
+<table class="dataframe">
+<caption>A data.frame: 8 × 30</caption>
+<thead>
+	<tr><th scope=col>categoria</th><th scope=col>marca</th><th scope=col>modelo</th><th scope=col>versao</th><th scope=col>motor</th><th scope=col>propulsao</th><th scope=col>transmissao</th><th scope=col>ar_cond</th><th scope=col>direcao</th><th scope=col>combustivel</th><th scope=col>⋯</th><th scope=col>gas_diesel_est_kml</th><th scope=col>eletr_ve_gas_cid_kmle</th><th scope=col>eletr_ve_gas_est_kmle</th><th scope=col>eletr_vehp_flex_cid_kmle</th><th scope=col>eletr_vehp_flex_est_kmle</th><th scope=col>consumo_mj_km</th><th scope=col>autonomia_km</th><th scope=col>class_rel_cat</th><th scope=col>class_abs_geral</th><th scope=col>selo_conpet</th></tr>
+	<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>⋯</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>Médio</td><td>CHEVROLET</td><td>ONIX     </td><td>10TAT HB ALC </td><td>1.0T - 12V</td><td>Combustão</td><td>A-6</td><td>S</td><td>E</td><td>E100</td><td>⋯</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>1.55</td><td>NA</td><td>C</td><td>C</td><td>NÃO</td></tr>
+	<tr><td>Médio</td><td>CHEVROLET</td><td>ONIX     </td><td>10TAT LT1 ALC</td><td>1.0T - 12V</td><td>Combustão</td><td>A-6</td><td>S</td><td>E</td><td>E100</td><td>⋯</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>1.55</td><td>NA</td><td>C</td><td>C</td><td>NÃO</td></tr>
+	<tr><td>Médio</td><td>CHEVROLET</td><td>ONIX     </td><td>10TAT LTZ ALC</td><td>1.0T - 12V</td><td>Combustão</td><td>A-6</td><td>S</td><td>E</td><td>E100</td><td>⋯</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>1.55</td><td>NA</td><td>C</td><td>C</td><td>NÃO</td></tr>
+	<tr><td>Médio</td><td>CHEVROLET</td><td>ONIX     </td><td>10TAT PR2 ALC</td><td>1.0T - 12V</td><td>Combustão</td><td>A-6</td><td>S</td><td>E</td><td>E100</td><td>⋯</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>1.55</td><td>NA</td><td>C</td><td>C</td><td>NÃO</td></tr>
+	<tr><td>Médio</td><td>CHEVROLET</td><td>ONIX PLUS</td><td>10TAT NB ALC </td><td>1.0T - 12V</td><td>Combustão</td><td>A-6</td><td>S</td><td>E</td><td>E100</td><td>⋯</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>1.54</td><td>NA</td><td>C</td><td>C</td><td>NÃO</td></tr>
+	<tr><td>Médio</td><td>CHEVROLET</td><td>ONIX PLUS</td><td>10TAT LT1 ALC</td><td>1.0T - 12V</td><td>Combustão</td><td>A-6</td><td>S</td><td>E</td><td>E100</td><td>⋯</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>1.54</td><td>NA</td><td>C</td><td>C</td><td>NÃO</td></tr>
+	<tr><td>Médio</td><td>CHEVROLET</td><td>ONIX PLUS</td><td>10TAT LTZ ALC</td><td>1.0T - 12V</td><td>Combustão</td><td>A-6</td><td>S</td><td>E</td><td>E100</td><td>⋯</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>1.54</td><td>NA</td><td>C</td><td>C</td><td>NÃO</td></tr>
+	<tr><td>Médio</td><td>CHEVROLET</td><td>ONIX PLUS</td><td>10TAT PR2 ALC</td><td>1.0T - 12V</td><td>Combustão</td><td>A-6</td><td>S</td><td>E</td><td>E100</td><td>⋯</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>1.54</td><td>NA</td><td>C</td><td>C</td><td>NÃO</td></tr>
+</tbody>
+</table>
+
+
 
 
 ```R
@@ -153,12 +177,12 @@ filtrar_colunas(pbev, propulsao == 'Combustão', consumo_mj_km < 1.40)
 <table class="dataframe">
 <caption>A data.frame: 2 × 30</caption>
 <thead>
-	<tr><th></th><th scope=col>categoria</th><th scope=col>marca</th><th scope=col>modelo</th><th scope=col>versao</th><th scope=col>motor</th><th scope=col>propulsao</th><th scope=col>transmissao</th><th scope=col>ar_cond</th><th scope=col>direcao</th><th scope=col>combustivel</th><th scope=col>⋯</th><th scope=col>gas_diesel_est_kml</th><th scope=col>eletr_ve_gas_cid_kmle</th><th scope=col>eletr_ve_gas_est_kmle</th><th scope=col>eletr_vehp_flex_cid_kmle</th><th scope=col>eletr_vehp_flex_est_kmle</th><th scope=col>consumo_mj_km</th><th scope=col>autonomia_km</th><th scope=col>class_rel_cat</th><th scope=col>class_abs_geral</th><th scope=col>selo_conpet</th></tr>
-	<tr><th></th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>⋯</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th></tr>
+	<tr><th scope=col>categoria</th><th scope=col>marca</th><th scope=col>modelo</th><th scope=col>versao</th><th scope=col>motor</th><th scope=col>propulsao</th><th scope=col>transmissao</th><th scope=col>ar_cond</th><th scope=col>direcao</th><th scope=col>combustivel</th><th scope=col>⋯</th><th scope=col>gas_diesel_est_kml</th><th scope=col>eletr_ve_gas_cid_kmle</th><th scope=col>eletr_ve_gas_est_kmle</th><th scope=col>eletr_vehp_flex_cid_kmle</th><th scope=col>eletr_vehp_flex_est_kmle</th><th scope=col>consumo_mj_km</th><th scope=col>autonomia_km</th><th scope=col>class_rel_cat</th><th scope=col>class_abs_geral</th><th scope=col>selo_conpet</th></tr>
+	<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>⋯</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th></tr>
 </thead>
 <tbody>
-	<tr><th scope=row>1</th><td>Médio</td><td>CHEVROLET</td><td>ONIX     </td><td>MT</td><td>1.0T - 12V</td><td>Combustão</td><td>M-6</td><td>S</td><td>E</td><td>F</td><td>⋯</td><td>17.7</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>1.38</td><td>NA</td><td>A</td><td>B</td><td>SIM</td></tr>
-	<tr><th scope=row>2</th><td>Médio</td><td>CHEVROLET</td><td>ONIX PLUS</td><td>MT</td><td>1.0 - 12 V</td><td>Combustão</td><td>M-6</td><td>S</td><td>E</td><td>F</td><td>⋯</td><td>17.1</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>1.39</td><td>NA</td><td>A</td><td>B</td><td>SIM</td></tr>
+	<tr><td>Médio</td><td>CHEVROLET</td><td>ONIX     </td><td>MT</td><td>1.0T - 12V</td><td>Combustão</td><td>M-6</td><td>S</td><td>E</td><td>F</td><td>⋯</td><td>17.7</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>1.38</td><td>NA</td><td>A</td><td>B</td><td>SIM</td></tr>
+	<tr><td>Médio</td><td>CHEVROLET</td><td>ONIX PLUS</td><td>MT</td><td>1.0 - 12 V</td><td>Combustão</td><td>M-6</td><td>S</td><td>E</td><td>F</td><td>⋯</td><td>17.1</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>1.39</td><td>NA</td><td>A</td><td>B</td><td>SIM</td></tr>
 </tbody>
 </table>
 
@@ -180,15 +204,14 @@ agrupar_registros <- function(df, ...) {
   df %>% 
     group_by(...) %>% 
     summarise('Consumo médio' = mean(as.numeric(consumo_mj_km), na.rm = TRUE),
-              .groups = 'drop')  %>% 
-    head(12)
+              .groups = 'drop')
 }
 ```
 
 
 ```R
 # Agrupamento com múltiplos critérios
-agrupar_registros(pbev, categoria, propulsao)
+head(agrupar_registros(pbev, categoria, propulsao), n=12)
 ```
 
 
@@ -241,14 +264,13 @@ contar_registros <- function(df, ...) {
     group_by(...) %>% 
     summarise(count = n(),
               .groups = 'drop')  %>% 
-    dplyr::arrange(desc(count)) %>% 
-    head(12)
+    dplyr::arrange(desc(count)) 
 }
 ```
 
 
 ```R
-contar_registros(pbev, marca)
+head(contar_registros(pbev, marca),n=12)
 ```
 
 
@@ -271,6 +293,54 @@ contar_registros(pbev, marca)
 	<tr><td>FORD     </td><td>31</td></tr>
 	<tr><td>CITROEN  </td><td>30</td></tr>
 	<tr><td>BYD      </td><td>29</td></tr>
+</tbody>
+</table>
+
+
+
+**Contagem de veículos por tipo de combustível**
+
+
+```R
+contar_registros(pbev, combustivel)
+```
+
+
+<table class="dataframe">
+<caption>A tibble: 5 × 2</caption>
+<thead>
+	<tr><th scope=col>combustivel</th><th scope=col>count</th></tr>
+	<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;int&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>G   </td><td>308</td></tr>
+	<tr><td>F   </td><td>290</td></tr>
+	<tr><td>E   </td><td>174</td></tr>
+	<tr><td>D   </td><td>140</td></tr>
+	<tr><td>E100</td><td>  8</td></tr>
+</tbody>
+</table>
+
+
+
+**Contagem de modelos movidos exclusivamente a etanol**
+
+
+```R
+pbev_etanol <- filtrar_colunas(pbev, combustivel == "E100")
+contar_registros(pbev_etanol, marca, modelo)
+```
+
+
+<table class="dataframe">
+<caption>A tibble: 2 × 3</caption>
+<thead>
+	<tr><th scope=col>marca</th><th scope=col>modelo</th><th scope=col>count</th></tr>
+	<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;int&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>CHEVROLET</td><td>ONIX     </td><td>4</td></tr>
+	<tr><td>CHEVROLET</td><td>ONIX PLUS</td><td>4</td></tr>
 </tbody>
 </table>
 
@@ -328,18 +398,57 @@ gerar_gráfico <- function(df1, x) {
   df1 <- df1 %>%
     mutate({{x}} := factor({{x}}, levels = pull(df_counts, {{x}})))
   
+  # Nome da variável para usar nos títulos
+  var_name <- rlang::as_name(enquo(x))
+  
   ggplot(df1, aes(x = {{x}}, fill = {{x}})) +
     geom_bar() +
-    geom_text(stat = "count", aes(label = after_stat(count)), vjust = -0.5, size = 4) +
-    scale_fill_viridis_d() +  # Paleta que suporta muitas cores
-    labs(title = paste("Distribuição por tipo de", rlang::as_name(enquo(x))),
-         x = paste("Tipo de", rlang::as_name(enquo(x))),
+    geom_text(stat = "count", 
+              aes(label = after_stat(count)), 
+              vjust = -0.8,        # Aumentado de -0.5 para -0.8 (mais acima)
+              size = 5.5,          # Tamanho 5.5 (equilibrado)
+              fontface = "bold",
+              color = "black") +
+    scale_fill_viridis_d() +
+    labs(title = paste("Distribuição por ", var_name),
+         x = var_name,
          y = "Quantidade de veículos") +
-    theme_minimal() +
-    theme(axis.text.x = element_text(angle = 45, hjust = 1),
-          legend.position = "none")
+    theme_minimal(base_size = 14) +
+    theme(
+      # Título principal - COM MAIS ESPAÇAMENTO
+      plot.title = element_text(size = 20, 
+                               face = "bold", 
+                               hjust = 0.5,
+                               margin = margin(b = 25)),  # Aumentado de 15 para 25
+      
+      # Margem superior do gráfico para dar mais espaço
+      plot.margin = margin(t = 20, r = 20, b = 20, l = 20),
+      
+      # Rótulos dos eixos
+      axis.title.x = element_text(size = 16, 
+                                  face = "bold",
+                                  margin = margin(t = 15)),  # Aumentado
+      axis.title.y = element_text(size = 16, 
+                                  face = "bold",
+                                  margin = margin(r = 10)),
+      
+      # Texto dos eixos (valores)
+      axis.text.x = element_text(size = 12, 
+                                 angle = 45, 
+                                 hjust = 1,
+                                 face = "bold"),
+      axis.text.y = element_text(size = 12,
+                                 face = "bold"),
+      
+      # Grade para melhor visualização
+      panel.grid.major.y = element_line(color = "gray90", linewidth = 0.5),
+      panel.grid.minor.y = element_blank(),
+      
+      legend.position = "none"
+    ) +
+    # Ajuste automático do limite superior do eixo Y para dar espaço aos textos
+    scale_y_continuous(expand = expansion(mult = c(0, 0.15)))  # 15% de espaço extra no topo
 }
-
 ```
 
 ### Distribuição por categoria
@@ -359,7 +468,7 @@ gerar_gráfico(pbev, categoria)
 
 
     
-![png](output_29_0.png)
+![png](output_34_0.png)
     
 
 
@@ -380,7 +489,7 @@ gerar_gráfico(pbev, propulsao)
 
 
     
-![png](output_31_0.png)
+![png](output_36_0.png)
     
 
 
@@ -403,7 +512,7 @@ gerar_gráfico(pbev, combustivel)
 
 
     
-![png](output_33_0.png)
+![png](output_38_0.png)
     
 
 
@@ -418,7 +527,7 @@ gerar_gráfico(pbev, direcao)
 
 
     
-![png](output_35_0.png)
+![png](output_40_0.png)
     
 
 
@@ -439,13 +548,13 @@ gerar_gráfico(pbev, class_abs_geral)
 
 
     
-![png](output_37_0.png)
+![png](output_42_0.png)
     
 
 
 ### Selo Conpet
 
-O **Selo Conpet** é concedido aos veículos mais eficientes. O gráfico mostra que 802 veículos (87% da amostra) não possuem o selo e que apenas 118 veículos (13%) são reconhecidos como energeticamente eficientes.
+O **Selo Conpet** é concedido aos veículos mais eficientes. O gráfico mostra que 802 veículos (87% da amostra) não possuem o selo e que apenas 118 veículos (13%) são reconhecidos como energeticamente eficientes. O segundo gráfico mostra quantos veículos possuem o selo, por marca.
 
 
 ```R
@@ -454,12 +563,10 @@ gerar_gráfico(pbev, selo_conpet)
 
 
     
-![png](output_39_0.png)
+![png](output_44_0.png)
     
 
-**Contagem de veículos com **Selo Conpet** por marca**
 
-Apesar da reduzida participação de mercado, os modelos elétricos lideram o ranking do **Selo Conpet**.
 
 ```R
 gerar_gráfico(pbev_com_selo, marca)
@@ -467,7 +574,7 @@ gerar_gráfico(pbev_com_selo, marca)
 
 
     
-![png](output_40_0.png)
+![png](output_45_0.png)
     
 
 
@@ -482,8 +589,6 @@ Apenas 13% dos veículos recebem o **Selo Conpet**, indicando que há espaço pa
 
 Em relação ao mercado, a categoria **Compacta** lidera em quantidade de modelos, enquanto os **Sub Compactos** mostram o melhor consumo médio, especialmente na versão elétrica.
 
-Acesse o dicionário dos dados em: [https://guiajf.github.io/pbev/dicionario_dados_pbev_2026.html/](https://guiajf.github.io/pbev/dicionario_dados_pbev_2026.html).
-
 
 
 **Referências**
@@ -495,3 +600,8 @@ Katti, V. (2021). *Programming with R {Dplyr} - As I Understand It!!* July 17, 2
 Wickham, H., Çetinkaya-Rundel, M., & Grolemund, G. (2023). *R for Data Science* (2e). https://r4ds.hadley.nz.
 
 Wickham, H., François, R., Henry, L., Müller, K., & Vaughan, D. (2026). *dplyr: A Grammar of Data Manipulation*. R package version 1.2.1. https://dplyr.tidyverse.org.
+
+
+```R
+
+```
