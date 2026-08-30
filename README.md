@@ -2,11 +2,9 @@
 
 ### Introdução
 
-Talvez por causa da adesão voluntária, o arquivo carregado no portal [Dados Abertos](https://dados.gov.br/dados/conjuntos-dados/programa-brasileiro-de-etiquetagem-pbe) esteja desatualizado.
+Os dados de veículos leves do **PBEV** (*Programa Brasileiro de Etiquetagem Veicular*), disponíveis em PDF no site do **Inmetro**: https://www.gov.br/inmetro/pt-br/assuntos/regulamentacao/avaliacao-da-conformidade/programa-brasileiro-de-etiquetagem/tabelas-de-eficiencia-energetica/veiculos-automotivos-pbe-veicular/mascara-pbev-2026_19_jan-rev01.pdf/@@download/file, estão atualizados. Talvez por causa da adesão voluntária, o arquivo CSV carregado no portal [Dados Abertos](https://dados.gov.br/dados/conjuntos-dados/programa-brasileiro-de-etiquetagem-pbe) esteja desatualizado.
 
-No entanto, os dados de veículos leves do **PBEV** (*Programa Brasileiro de Etiquetagem Veicular*), disponíveis em PDF no site do **Inmetro**: https://www.gov.br/inmetro/pt-br/assuntos/regulamentacao/avaliacao-da-conformidade/programa-brasileiro-de-etiquetagem/tabelas-de-eficiencia-energetica/veiculos-automotivos-pbe-veicular/mascara-pbev-2026_19_jan-rev01.pdf/@@download/file, estão atualizados. 
-
-Como esse formato não permite análise direta, baixei o arquivo de AGO/2026 e submeti ao agente **Manus** o seguinte *prompt*: *"Gere um arquivo csv chamado tabela_pbev_2026.csv, separado por ponto e vírgula, a partir do arquivo pdf em anexo. Modifique os nomes de colunas muito longos, para formato reduzido, que seja significativo e inteligível. Forneça o link ou modo de download."*
+Como o formato PDF não permite análise direta, baixei o arquivo de AGO/2026 e submeti ao agente **Manus** o seguinte *prompt*: *"Gere um arquivo csv chamado tabela_pbev_2026.csv, separado por ponto e vírgula, a partir do arquivo pdf em anexo. Modifique os nomes de colunas muito longos, para formato reduzido, que seja significativo e inteligível. Forneça o link ou modo de download."*
 
 O resultado foi um CSV válido (separador ";", UTF-8) com 920 registros e 30 colunas, com nomes reduzidos e inteligíveis. Embora o PDF mencione 965 modelos, a amostra atende aos objetivos deste estudo.
 
