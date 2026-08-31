@@ -395,7 +395,6 @@ gerar_gráfico <- function(df1, x) {
     summarise(count = n()) %>%
     arrange(desc(count))
   
-  # SOLUÇÃO: Usar pull() em vez de $ para avaliar {{x}} dinamicamente
   df1 <- df1 %>%
     mutate({{x}} := factor({{x}}, levels = pull(df_counts, {{x}})))
   
