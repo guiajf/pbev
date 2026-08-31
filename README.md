@@ -1,4 +1,4 @@
-# Análise do Programa brasileiro de etiquetagem (PBE)
+# Análise do Programa Brasileiro de Etiquetagem (PBE)
 
 ### Introdução
 
